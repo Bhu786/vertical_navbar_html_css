@@ -1,0 +1,68 @@
+nav{
+  border:1px solid #333;
+  width:50%;
+  margin:1rem auto;
+/*  auto left right se evenly space or comes into center  */
+  padding:1rem;
+  background-color:#eee;
+}
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+
+nav a{
+  color:#00bff3;
+  text-decoration:none;
+  font-size:1.5rem;
+  
+}
+
+
+*,
+*:before,
+*:after{
+  box-sizing:inherit;
+}
+
+body{
+  font-family:"Roboto slab ,serif";
+  font-weight:400;
+  margin:0;
+  padding:0;
+  font-size:1.2rem;
+}
+
+nav a:focus{
+  background-color:#f0c808;
+  color:black;
+}
+
+nav a:hover{
+  color: #ff583d;
+  font-weight:900;
+}
+
+nav li:hover{
+  background-color:#f0c808;
+/*  background-image:url(path)  */
+}
+
+nav li{
+  padding:0.5rem 1rem;
+}
+
+
+.active{
+  color:#ff583d;
+  background-color:#c5e5ed;
+  border-bottom:5px solid #00bff3;
+  border-top:5px solid #00bff3;
+
+}
+
+.active:hover{
+ background-color:red;
+}
